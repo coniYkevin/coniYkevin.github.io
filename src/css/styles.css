@@ -1,11 +1,16 @@
 :root{
-    --color-A: #fff;
-    --shadow-A:0px 0px 4px #353535;
-    --color-B: #FF9A50;
+    --color-A: rgb(0, 0, 0);
+    --shadow-A:0px 0px 4px #cacaca;
+    --color-B: #966426;
     --shadow-B:0px 0px 6px #000000;
     --color-C: #152f4c;
     --color-D:#353535;
     --color-E:#bbb;
+    --color-F: rgb(255, 255, 255);
+    --letra-masgrande: 9vw;
+    --letra-grande: 5vw;
+    --letra-mediana: 3vw;
+    --letra-chica: 2vw;
 }
 *{
     margin: 0;
@@ -25,14 +30,93 @@
     width: 100vw;
     height: 100vh;
 }
-.section_1{
+
+.full_page2{
+    width: 100vw;
+    height: 150vh;
+}
+
+.rectangulo1{
+    height: 15vh;
+    width: 100vw;
+    font-size: var(--letra-masgrande);
+    font-family: 'Parisienne', cursive;
+    background:url('../images/wbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.medio1{
+    height: 70vh;
+    width: 100vw;
+    font-size: var(--letra-grande);
     background:url('../images/1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.medio2{
+    height: 80vh;
+    width: 100vw;
+    background:url('../images/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rectangulo2{
+    height: 15vh;
+    width: 100vw;
+    font-size: var(--letra-grande); /*agrandar un poco pero no tanto*/
+    font-family: 'Parisienne', cursive;
+    background:url('../images/wbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rectangulo3{
+    height: 40vh;
+    width: 100vw;
+    font-size: var(--letra-mediana);
+    font-family: 'EB Garamond', serif;
+}
+
+.rectangulo4{
+    height: 10vh;
+    width: 100vw;
+    font-size: var(--letra-mediana);
+    font-family: 'EB Garamond', serif;
+
+}
+
+
+/*  
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Waterfall', cursive;
+
+    legibles
+    font-family: 'Playfair Display', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    
+    */
+
+/*.section_1{
+    background:url('../images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
 .title_content_1{
-    padding-top: 5vh;
+    padding-top: 3vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -40,8 +124,8 @@
     text-align: center;
 }
 .title_content_1 h1{
-    text-transform: uppercase;
-    font-size: 2.5em;
+    /*text-transform: uppercase;*/
+    /*font-size: 2.5em;*/
     color: var(--color-A);
     text-shadow: var(--shadow-A);
 }
@@ -60,13 +144,17 @@
 .section_2{
     display: flex;
     flex-direction: column;
+    background:url('../images/wbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title_content_2{
     border-top: 3px solid var(--color-B);
     border-bottom: 3px solid var(--color-B);
     padding-top: 3vh;
     padding-bottom: 3vh;
-    background-color: var(--color-C);
+    /*background-color: var(--color-C);*/
     text-align: center;
 }
 .title_content_2 h1{
@@ -120,11 +208,11 @@
     border-bottom: 3px solid var(--color-B);
     padding-top: 3vh;
     padding-bottom: 3vh;
-    background-color: var(--color-C);
+    /*background-color: var(--color-C);*/
 }
 
 .contador p {
-    color: var(--color-A);
+    color: var(--color-F);
     width: 85px;
     display: flex;
     flex-direction: column;
@@ -139,7 +227,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 @media (max-width: 700px){
     .title_content_1{

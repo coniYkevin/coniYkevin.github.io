@@ -1,5 +1,5 @@
 window.onload = () =>{
-    let fechaFinal = new Date("Aug 19, 2022 17:30:00").getTime();
+    let fechaFinal = new Date("Aug 5, 2022 19:30:00").getTime();
 
     let tiempo = setInterval(()=>{
         let ahora = new Date().getTime();
