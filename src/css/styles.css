@@ -38,6 +38,11 @@
     height: 155vh;
 }
 
+.full_page3 {
+    width: 100vw;
+    height: 155vh;
+}
+
 .rectangulo1 {
     height: 15vh;
     width: 100vw;
@@ -81,7 +86,7 @@
 }
 
 .rectangulo3 {
-    height: 45vh;
+    height: 50vh;
     width: 100vw;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
@@ -94,7 +99,7 @@
 
 
 .rectangulo4 {
-    height: 10vh;
+    height: 11.5vh;
     width: 100vw;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
@@ -264,24 +269,24 @@
     box-sizing: border-box;
 }
 
-/* Position the image container (needed to position the left and right arrows) */ 
+/* ubicando contenedor de imagenes, necesario para los botones de ant y sig */ 
 .container {
     position: relative;
-    height: 100vh;
+    height: 155vh;
     width: 100vw;
 }
 
-/* Hide the images by default */
+/* esconde todo por default */
 .mySlides {
     display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
+/* cambia cursor cuando hovering sobre miniaturas */
 .cursor {
     cursor: pointer;
 }
 
-/* Next & previous buttons */
+/* botones ant y sig */
 .prev,
 .next {
     cursor: pointer;
@@ -298,19 +303,19 @@
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* coloca boton siguiente a la derecha */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* efecto cuando hovereando */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
+/* numera texto */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -319,7 +324,7 @@
     top: 0;
 }
 
-/* Container for image text */
+/* contenedor para texto */
 .caption-container {
     text-align: center;
     background-color: #222;
@@ -333,13 +338,13 @@
     clear: both;
 }
 
-/* Six columns side by side */
+/* seis columnas de miniatuas */
 .column {
     float: left;
     width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
+/* transparencia para miniaturas */
 .demo {
     opacity: 0.6;
 }
