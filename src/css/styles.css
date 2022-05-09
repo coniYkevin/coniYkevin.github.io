@@ -13,8 +13,6 @@
     --letra-D: 3vw;
     --letra-E: 2vw;
 
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 * {
@@ -22,7 +20,6 @@
     padding: 0;
     overflow-x: hidden;
 }
-
 
 .content_1 {
     width: 100vw;
@@ -38,12 +35,12 @@
 
 .full_page2 {
     width: 100vw;
-    height: 155vh;
+    height: 157vh;
 }
 
 .full_page3 {
     width: 100vw;
-    height: 155vh;
+    height: 130vh;
 }
 
 .rectangulo1 {
@@ -102,7 +99,7 @@
 
 
 .rectangulo4 {
-    height: 11.5vh;
+    height: 13.4vh;
     width: 100vw;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
@@ -275,7 +272,7 @@
 /* ubicando contenedor de imagenes, necesario para los botones de ant y sig */
 .container {
     position: relative;
-    height: 155vh;
+    height: 130vh;
     width: 100vw;
 }
 
