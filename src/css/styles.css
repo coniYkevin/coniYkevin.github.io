@@ -12,6 +12,9 @@
     --letra-C: 5vw;
     --letra-D: 3vw;
     --letra-E: 2vw;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 * {
@@ -269,7 +272,7 @@
     box-sizing: border-box;
 }
 
-/* ubicando contenedor de imagenes, necesario para los botones de ant y sig */ 
+/* ubicando contenedor de imagenes, necesario para los botones de ant y sig */
 .container {
     position: relative;
     height: 155vh;
