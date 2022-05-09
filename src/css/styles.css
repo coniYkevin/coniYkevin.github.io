@@ -34,7 +34,7 @@
 
 .full_page2{
     width: 100vw;
-    height: 150vh;
+    height: 155vh;
 }
 
 .rectangulo1{
@@ -80,7 +80,7 @@
 }
 
 .rectangulo3{
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     font-size: var(--letra-mediana);
     font-family: 'EB Garamond', serif;
