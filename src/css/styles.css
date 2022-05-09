@@ -8,6 +8,7 @@
     --color-E:#bbb;
     --color-F: rgb(255, 255, 255);
     --letra-masgrande: 9vw;
+    --letra-nombres: 6.5vw;
     --letra-grande: 5vw;
     --letra-mediana: 3vw;
     --letra-chica: 2vw;
@@ -70,7 +71,7 @@
 .rectangulo2{
     height: 15vh;
     width: 100vw;
-    font-size: var(--letra-grande); /*agrandar un poco pero no tanto*/
+    font-size: var(--letra-nombres); /*agrandar un poco pero no tanto*/
     font-family: 'Parisienne', cursive;
     background:url('../images/wbg.jpg');
     background-position: center;
