@@ -71,7 +71,7 @@
 .rectangulo2{
     height: 15vh;
     width: 100vw;
-    font-size: var(--letra-nombres); /*agrandar un poco pero no tanto*/
+    font-size: var(--letra-nombres); 
     font-family: 'Parisienne', cursive;
     background:url('../images/wbg.jpg');
     background-position: center;
@@ -84,6 +84,11 @@
     width: 100vw;
     font-size: var(--letra-mediana);
     font-family: 'EB Garamond', serif;
+    line-height: 6.3vw;
+}
+
+.rectangulo3 h1{
+     
 }
 
 .rectangulo4{
@@ -93,21 +98,6 @@
     font-family: 'EB Garamond', serif;
 
 }
-
-
-/*  
-    font-family: 'Cookie', cursive;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Mea Culpa', cursive;
-    font-family: 'Parisienne', cursive;
-    font-family: 'Waterfall', cursive;
-
-    legibles
-    font-family: 'Playfair Display', serif;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'EB Garamond', serif;
-    
-    */
 
 /*.section_1{
     background:url('../images/1.jpg');
