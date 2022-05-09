@@ -7,11 +7,11 @@
     --color-D:#353535;
     --color-E:#bbb;
     --color-F: rgb(255, 255, 255);
-    --letra-masgrande: 9vw;
-    --letra-nombres: 6.5vw;
-    --letra-grande: 5vw;
-    --letra-mediana: 3vw;
-    --letra-chica: 2vw;
+    --letra-A: 9vw;
+    --letra-B: 6.5vw;
+    --letra-C: 5vw;
+    --letra-D: 3vw;
+    --letra-E: 2vw;
 }
 *{
     margin: 0;
@@ -40,7 +40,7 @@
 .rectangulo1{
     height: 15vh;
     width: 100vw;
-    font-size: var(--letra-masgrande);
+    font-size: var(--letra-A);
     font-family: 'Parisienne', cursive;
     background:url('../images/wbg.jpg');
     background-position: center;
@@ -51,7 +51,7 @@
 .medio1{
     height: 70vh;
     width: 100vw;
-    font-size: var(--letra-grande);
+    font-size: var(--letra-C);
     background:url('../images/1.jpg');
     background-position: center;
     background-size: cover;
@@ -71,7 +71,7 @@
 .rectangulo2{
     height: 15vh;
     width: 100vw;
-    font-size: var(--letra-nombres); 
+    font-size: var(--letra-B); 
     font-family: 'Parisienne', cursive;
     background:url('../images/wbg.jpg');
     background-position: center;
@@ -82,19 +82,20 @@
 .rectangulo3{
     height: 45vh;
     width: 100vw;
-    font-size: var(--letra-mediana);
+    font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
-    line-height: 6.3vw;
+    /*line-height: 6.3vw;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.rectangulo3 h1{
-     
-}
 
 .rectangulo4{
     height: 10vh;
     width: 100vw;
-    font-size: var(--letra-mediana);
+    font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
 
 }
