@@ -7,11 +7,11 @@
     --color-D: #353535;
     --color-E: #bbb;
     --color-F: rgb(255, 255, 255);
-    --letra-A: 9vw;
-    --letra-B: 6.5vw;
-    --letra-C: 5vw;
-    --letra-D: 3vw;
-    --letra-E: 2vw;
+    --letra-A: 3em;
+    --letra-B: 2.3em;
+    --letra-C: 1.65em;
+    --letra-D: 1em;
+    --letra-E: 0.7em;
 
 }
 
@@ -23,7 +23,7 @@
 
 .content_1 {
     width: 100vw;
-    height: 400vh;
+    height: 350vh;
     display: flex;
     flex-direction: column;
 }
@@ -40,7 +40,7 @@
 
 .full_page3 {
     width: 100vw;
-    height: 130vh;
+    height: 90vh;
 }
 
 .rectangulo1 {
@@ -52,6 +52,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .medio1 {
@@ -83,6 +88,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .rectangulo3 {
@@ -95,14 +105,19 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 
 .rectangulo4 {
+    display: flex;
     height: 13.4vh;
     width: 100vw;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -114,7 +129,7 @@
 }*/
 
 .title_content_1 {
-    padding-top: 3vh;
+    /*padding-top: 3vh;*/
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -129,9 +144,9 @@
     text-shadow: var(--shadow-A);
 }
 
-.t_sub_cont_B {
+/*.t_sub_cont_B {
     margin-top: 50vh;
-}
+}*/
 
 .t_sub_cont_B h1 {
     color: var(--color-B);
@@ -152,8 +167,8 @@
 .title_content_2 {
     border-top: 3px solid var(--color-B);
     border-bottom: 3px solid var(--color-B);
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    /*padding-top: 3vh;
+    padding-bottom: 3vh;*/
     /*background-color: var(--color-C);*/
     text-align: center;
 }
@@ -178,7 +193,7 @@
 }
 
 .sub_title_1 {
-    padding-top: 1vh;
+    /*padding-top: 1vh;*/
     width: 40vw;
 }
 
@@ -205,13 +220,15 @@
 }
 
 .contador {
+    height: 15vh;
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     border-top: 3px solid var(--color-B);
     border-bottom: 3px solid var(--color-B);
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    /*padding-top: 3vh;
+    padding-bottom: 3vh;*/
     /*background-color: var(--color-C);*/
 }
 
@@ -236,7 +253,7 @@
     background-repeat: no-repeat;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .title_content_1 {
         padding-top: 0;
     }
@@ -257,7 +274,7 @@
         font-size: 2.3em;
         padding-top: 10vh;
     }
-}
+}*/
 
 /*@media only screen and (orientation:landscape) {
     body {
@@ -288,7 +305,7 @@
 @media only screen and (min-width: 1200px) {
     
     body {
-        width: 50vw;
+        width: 50%;
         
     }
 }
@@ -297,11 +314,11 @@
     box-sizing: border-box;
 }
 
-/* ubicando contenedor de imagenes, necesario para los botones de ant y sig */
+/* ubicando contenedor de imagenes */
 .container {
+    height: 100%;
+    width: 100%;
     position: relative;
-    height: 100vh;
-    width: 100vw;
 }
 
 /* esconde todo por default */
