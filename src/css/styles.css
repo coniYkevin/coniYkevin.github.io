@@ -19,10 +19,11 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .content_1 {
-    width: 100%;
+    width: 100vw;
     height: 350vh;
     display: flex;
     flex-direction: column;
@@ -30,21 +31,21 @@
 
 .full_page {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .full_page2 {
     width: 100%;
-    height: 157vh;
+    height: 157%;
 }
 
 .full_page3 {
     width: 100%;
-    height: 90vh;
+    height: 90%;
 }
 
 .rectangulo1 {
-    height: 15vh;
+    height: 15%;
     width: 100%;
     font-size: var(--letra-A);
     font-family: 'Parisienne', cursive;
@@ -60,7 +61,7 @@
 }
 
 .medio1 {
-    height: 70vh;
+    height: 70%;
     width: 100%;
     font-size: var(--letra-C);
     background: url('../images/1.jpg');
@@ -71,7 +72,7 @@
 
 
 .medio2 {
-    height: 80vh;
+    height: 80%;
     width: 100%;
     background: url('../images/2.jpg');
     background-position: center;
@@ -80,7 +81,7 @@
 }
 
 .rectangulo2 {
-    height: 15vh;
+    height: 15%;
     width: 100%;
     font-size: var(--letra-B);
     font-family: 'Parisienne', cursive;
@@ -96,11 +97,10 @@
 }
 
 .rectangulo3 {
-    height: 50vh;
+    height: 50%;
     width: 100%;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
-    /*line-height: 6.3%;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,10 +108,9 @@
     align-items: center;
 }
 
-
 .rectangulo4 {
     display: flex;
-    height: 13.4vh;
+    height: 13.4%;
     width: 100%;
     font-size: var(--letra-D);
     font-family: 'EB Garamond', serif;
@@ -120,13 +119,6 @@
     text-align: center;
 
 }
-
-/*.section_1{
-    background:url('../images/1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}*/
 
 .title_content_1 {
     /*padding-top: 3vh;*/
@@ -138,15 +130,10 @@
 }
 
 .title_content_1 h1 {
-    /*text-transform: uppercase;*/
-    /*font-size: 2.5em;*/
     color: var(--color-A);
     text-shadow: var(--shadow-A);
+    padding: 1%;
 }
-
-/*.t_sub_cont_B {
-    margin-top: 50vh;
-}*/
 
 .t_sub_cont_B h1 {
     color: var(--color-B);
@@ -167,9 +154,6 @@
 .title_content_2 {
     border-top: 3px solid var(--color-B);
     border-bottom: 3px solid var(--color-B);
-    /*padding-top: 3vh;
-    padding-bottom: 3vh;*/
-    /*background-color: var(--color-C);*/
     text-align: center;
 }
 
@@ -192,22 +176,6 @@
     background-repeat: no-repeat;
 }
 
-.sub_title_1 {
-    /*padding-top: 1vh;*/
-    width: 40%;
-}
-
-.sub_title_1 h1 {
-    font-size: 2em;
-    color: var(--color-D);
-    border-bottom: var(--color-B) 1px solid;
-}
-
-.sub_title_1 p {
-    font-size: 1.2em;
-    color: var(--color-D);
-}
-
 .circulos {
     height: 45px;
     width: 45px;
@@ -220,7 +188,7 @@
 }
 
 .contador {
-    height: 15vh;
+    height: 15%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -229,7 +197,6 @@
     border-bottom: 3px solid var(--color-B);
     /*padding-top: 3vh;
     padding-bottom: 3vh;*/
-    /*background-color: var(--color-C);*/
 }
 
 .contador p {
@@ -252,35 +219,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/*@media (max-width: 700px) {
-    .title_content_1 {
-        padding-top: 0;
-    }
-
-    .sub_title_1 {
-        width: 100%;
-    }
-
-    .section_1 {
-        background-size: cover;
-    }
-
-    .photo_back_2 {
-        background-size: cover;
-    }
-
-    .t_sub_cont_B h1 {
-        font-size: 2.3em;
-        padding-top: 10vh;
-    }
-}*/
-
-/*@media only screen and (orientation:landscape) {
-    body {
-        transform: rotate(0deg);
-    }
-}*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -307,14 +245,8 @@
     html {
         width: 50%;       
     }
-    body{
-
-    }
 }
 
-* {
-    box-sizing: border-box;
-}
 
 /* ubicando contenedor de imagenes */
 .container {
@@ -360,43 +292,4 @@
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* numera texto */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* contenedor para texto */
-.caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* seis columnas de miniatuas */
-.column {
-    float: left;
-    width: 16.66%;
-}
-
-/* transparencia para miniaturas */
-.demo {
-    opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-    opacity: 1;
 }
