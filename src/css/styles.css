@@ -7,11 +7,11 @@
     --color-D: #353535;
     --color-E: #bbb;
     --color-F: rgb(255, 255, 255);
-    --letra-A: 3em;
-    --letra-B: 2.3em;
-    --letra-C: 1.65em;
+    --letra-A: 2.1em;
+    --letra-B: 1.9em;
+    --letra-C: 1.25em;
     --letra-D: 1em;
-    --letra-E: 0.7em;
+    --letra-E: 0.5em;
 
 }
 
@@ -20,6 +20,16 @@
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/wbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content_1 {
@@ -192,29 +202,33 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {}
 
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .content_1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-    html {
-        width: 50%;       
+@media (min-width: 1200px) {
+    .content_1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 }
 
