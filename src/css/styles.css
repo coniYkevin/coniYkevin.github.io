@@ -39,6 +39,15 @@
     height: 157%;
 }
 
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    background: url('../images/wbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .full_page3 {
     width: 100%;
     height: 90%;
@@ -58,26 +67,6 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-}
-
-.medio1 {
-    height: 70%;
-    width: 100%;
-    font-size: var(--letra-C);
-    background: url('../images/1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.medio2 {
-    height: 80%;
-    width: 100%;
-    background: url('../images/2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .rectangulo2 {
@@ -120,6 +109,26 @@
 
 }
 
+.medio1 {
+    height: 70%;
+    width: 100%;
+    font-size: var(--letra-C);
+    background: url('../images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.medio2 {
+    height: 80%;
+    width: 100%;
+    background: url('../images/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .title_content_1 {
     /*padding-top: 3vh;*/
     width: 100%;
@@ -135,22 +144,6 @@
     padding: 1%;
 }
 
-.t_sub_cont_B h1 {
-    color: var(--color-B);
-    text-shadow: var(--shadow-B);
-    font-size: 3em;
-}
-
-/**************Section 2**************/
-.section_2 {
-    display: flex;
-    flex-direction: column;
-    background: url('../images/wbg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .title_content_2 {
     border-top: 3px solid var(--color-B);
     border-bottom: 3px solid var(--color-B);
@@ -160,20 +153,6 @@
 .title_content_2 h1 {
     color: var(--color-A);
     text-shadow: var(--shadow-A);
-}
-
-.sub_titles {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: url('../images/wbg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .circulos {
@@ -210,14 +189,6 @@
 
 .contador p span {
     color: var(--color-F);
-}
-
-.photo_back_2 {
-    height: 85vh;
-    width: 100%;
-    background: url("../images/2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 /* Extra small devices (phones, 600px and down) */
