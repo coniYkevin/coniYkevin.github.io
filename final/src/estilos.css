@@ -255,6 +255,9 @@ body{
     }
 }
 @media (orientation: portrait){
+    *{
+        overflow-x: hidden;
+    }
     .full_pageA{
         width: 100vw;
     }
