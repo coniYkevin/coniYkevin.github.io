@@ -7,8 +7,8 @@
     --color-D: #353535;
     --color-E: #bbb;
     --color-F: rgb(255, 255, 255);
-    --letra-A: 2.1em;
-    --letra-B: 1.8em;
+    --letra-A: 3em;
+    --letra-B: 2.5em;
     --letra-C: 0;
     --letra-D: 1.7em;
     --letra-E: 1.4em;
@@ -226,6 +226,12 @@ body{
 @media (orientation: landscape) {
     .content_1 {
       height: 423vh;
+    }
+    .title_content_1 h1{
+        font-size: 2.5em;
+    }
+    .title_content_1 h2{
+        font-size: 2em;
     }
     .full_pageB{
         height: 90vh;
