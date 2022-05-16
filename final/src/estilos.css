@@ -42,7 +42,7 @@ body{
 }
 .full_pageA{
     height: 100vh;
-    width: 100vw;
+    width: 70vw;
 }
 .alineado{
     text-align: center;
@@ -77,7 +77,7 @@ body{
 
 /*************Seccion 2******************/
 .full_pageB {
-    width: 100vw;
+    width: 70vw;
     height: 48vh;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ body{
 
 /***************** contador *************/
 .full_pageC{
-    width: 100vw;
+    width: 70vw;
     height: 17.1vh;
     display: flex;
     align-items: center;
@@ -152,7 +152,7 @@ body{
 
 /**********parte de foto y cuenta banco***************/
 .full_pageD{
-    width: 100vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@ body{
 
 /********************Galeria de fotos************************/
 .full_pageE{
-    width: 94vw;
+    width: 66vw;
     height: 96vh;  
     padding-top: 2vh;  
     border-radius: 3px;
@@ -233,14 +233,23 @@ body{
     .title_content_1 h2{
         font-size: 2em;
     }
+    .full_pageA{
+        width: 100vw;
+    }
     .full_pageB{
         height: 90vh;
+        width: 100vw;
     }
     .full_pageC{
         height: 24.1vh;
+        width: 100vw;
     }
     .full_pageD{
         height: 108vh;
+        width: 100vw;
+    }
+    .full_pageE {
+        width: 96vw;
     }
     .fotoPageD{
         height: 87vh;
@@ -248,4 +257,22 @@ body{
     .title_content_2{
         height: 21.1vh;
     }
+}
+@media (orientation: portrait){
+    .full_pageA{
+        width: 100vw;
+    }
+    .full_pageB {
+        width: 100vw;
+    }
+    .full_pageC {
+        width: 100vw;
+    }
+    .full_pageD {
+        width: 100vw;
+    }
+    .full_pageE {
+        width: 96vw;
+    }
+
 }
