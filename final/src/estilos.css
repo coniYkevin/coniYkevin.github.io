@@ -35,10 +35,15 @@ body{
 }
 .content_1{
     height: 366vh;
-    width: 100vw;
+    width: auto;
+    border-left: 0.5vh solid var(--color-B);
+    border-right: 0.5vh solid var(--color-B);
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("../imagenes/wbg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .full_pageA{
     height: 100vh;
@@ -233,23 +238,14 @@ body{
     .title_content_1 h2{
         font-size: 2em;
     }
-    .full_pageA{
-        width: 100vw;
-    }
     .full_pageB{
         height: 90vh;
-        width: 100vw;
     }
     .full_pageC{
         height: 24.1vh;
-        width: 100vw;
     }
     .full_pageD{
         height: 108vh;
-        width: 100vw;
-    }
-    .full_pageE {
-        width: 96vw;
     }
     .fotoPageD{
         height: 87vh;
