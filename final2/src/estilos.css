@@ -322,7 +322,7 @@ body{
     background-repeat: no-repeat;
 }
 /**********************media*************************************/
-@media (orientation: landscape) {
+@media (orientation: landscape) { /*costado*/
     .content_1 {
       height: 423vh;
     }
@@ -343,6 +343,7 @@ body{
     }
     .fotoPageD{
         height: 87vh;
+        background-position: 0 0;
     }
     .title_content_2{
         height: 21.1vh;
@@ -355,7 +356,7 @@ body{
         width: 640vw;
     }
 }
-@media (orientation: portrait){
+@media (orientation: portrait){/*normal*/
     *{
         overflow-x: hidden;
     }
@@ -374,5 +375,6 @@ body{
     .full_pageE {
         width: 96vw;
     }
+
 
 }
