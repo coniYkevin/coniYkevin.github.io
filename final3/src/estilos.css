@@ -201,8 +201,15 @@ body{
     height: 96vh;  
     padding-top: 2vh;  
     border-radius: 3px;
+    display: flex;
     overflow-x: scroll;
-    scroll-snap-type: x proximity;
+    scroll-snap-type: x mandatory;
+}
+.full_pageE img {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
 }
 /**********************media*************************************/
 @media (orientation: landscape) { /*costado*/
