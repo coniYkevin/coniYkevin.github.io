@@ -21,7 +21,7 @@ window.onload = () =>{
         divsegundos.textContent = segundos;
     }, 1000);
     
-    //showSlides(slideIndex);
+    showSlides(slideIndex);
 }
 
 let slideIndex = 1;
