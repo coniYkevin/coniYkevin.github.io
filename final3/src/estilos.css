@@ -197,9 +197,8 @@ body{
 
 /********************Galeria de fotos************************/
 .full_pageE{
-    width: 66vw;
-    height: 96vh;  
-    padding-top: 2vh;  
+    width: 70vw;
+    height: 100vh;    
     border-radius: 3px;
     display: flex;
     overflow-x: scroll;
@@ -263,7 +262,7 @@ body{
         width: 100vw;
     }
     .full_pageE {
-        width: 96vw;
+        width: 100vw;
     }
 
 
