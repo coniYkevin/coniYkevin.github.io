@@ -1,5 +1,5 @@
 window.onload = () => {
-  let fechaFinal = new Date("Aug 5, 2022 11:00:00").getTime();
+  /*let fechaFinal = new Date("Aug 5, 2022 11:00:00").getTime();
 
   let tiempo = setInterval(() => {
     let ahora = new Date().getTime();
@@ -19,7 +19,7 @@ window.onload = () => {
     divhoras.textContent = horas;
     divminutos.textContent = minutos;
     divsegundos.textContent = segundos;
-  }, 1000);
+  }, 1000);*/
 
   showSlides(slideIndex);
 }
